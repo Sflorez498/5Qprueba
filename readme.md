@@ -40,7 +40,7 @@
 
 # 📖 [TV AMAZE APP ] <a name="about-project"></a>
 
-  Se realiza un formulario para Que los clientes puedan ingresar su informacion personal y nos podamos contactar con ellos por medio o de correo o numero telefonico 
+Creamos un formulario sencillo y amigable para que los clientes puedan dejarnos sus datos, como su nombre, correo y número de teléfono. Así, podemos ponernos en contacto con ellos de la manera que prefieran, ya sea por mensaje o llamada. La idea es hacerles todo más fácil, asegurándonos de que su información esté segura y solo la usemos para ayudarles o responder sus dudas.
  
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -60,10 +60,10 @@
 
 
 ### Series List:
- TV Amaze App fetches data from the TV Maze API and displays an extensive list of TV series to users. The app employs REST methods to efficiently retrieve and present series information, including title, genre, summary, and rating. The well-organized series list provides users with a seamless browsing experience. Render different series by genre and   search series by title.
-
+Este formulario se ha creado para llevar un mejor control de los usuarios y facilitar el contacto con ellos. Al registrarlos, podremos gestionar su información de manera organizada y asegurarnos de que reciban la mejor atención posible.
+Incluiremos datos como nombre, correo, teléfono y otros detalles importantes para personalizar la experiencia de cada usuario. Queremos que el proceso sea fácil, rápido y seguro, asegurándonos de que la información esté siempre protegida.
 ### Likes:
- Users can express their preferences and indicate their favorite series by utilizing the "Like" feature. This functionality is achieved through REST methods, enabling users to interact with the app and curate their personal collection of liked shows. By utilizing async/await and Promises, the app ensures smooth and responsive liking functionality.
+Este es un aplicativo muy útil porque nos permite guardar y organizar los datos de los usuarios de manera eficiente. Gracias a esto, podemos acceder fácilmente a su información cuando la necesitemos, mejorar la comunicación y ofrecerles una mejor experiencia. Además, garantiza que los datos estén almacenados de forma segura y bien gestionados.
 
 ### Comments Popup: 
  TV Amaze App enables users to engage in discussions and share their thoughts on specific TV series by leaving comments. Leveraging REST methods, users can interact with the app to post comments, fostering a community-driven environment. The implementation of ES6 modules and async/await allows for seamless handling of comment-related operations in a popup window.
@@ -93,8 +93,6 @@ To run this project  you need the following tools:
 - [VS Code ]
 - [Git and GitHub ]
 - [Express ]
-- [Bash Script ]
-- [openssl to generate self signed certificates ]
 - [Webpack Installation ]
 
 
@@ -111,14 +109,6 @@ sh
 ### Install
 
 Install this project with:
-
-Lighthouse run
-sh
-    npm install -g @lhci/cli@0.7.x
-
-Webhint:
-sh
-     npm install --save-dev hint@7.x
 
 Stylelint:
 sh
@@ -271,8 +261,8 @@ JEYSSON CONTRERAS
 
 👤 *Author1*
 
-- GitHub: [@alyconr](https://github.com/alyconr)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras/)
+- GitHub: [@alyconr](https://github.com/Sflorez498)
+- LinkedIn: [LinkedIn](https://github.com/Sflorez498/5Qprueba.git)
 
 
 
@@ -297,7 +287,7 @@ JEYSSON CONTRERAS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alyconr/TV-AMAZE-APP.git/issues).
+Feel free to check the [issues page](https://github.com/Sflorez498/5Qprueba.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
