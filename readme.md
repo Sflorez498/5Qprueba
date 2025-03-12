@@ -66,7 +66,7 @@ Incluiremos datos como nombre, correo, teléfono y otros detalles importantes pa
 Este es un aplicativo muy útil porque nos permite guardar y organizar los datos de los usuarios de manera eficiente. Gracias a esto, podemos acceder fácilmente a su información cuando la necesitemos, mejorar la comunicación y ofrecerles una mejor experiencia. Además, garantiza que los datos estén almacenados de forma segura y bien gestionados.
 
 ### Comments Popup: 
- TV Amaze App enables users to engage in discussions and share their thoughts on specific TV series by leaving comments. Leveraging REST methods, users can interact with the app to post comments, fostering a community-driven environment. The implementation of ES6 modules and async/await allows for seamless handling of comment-related operations in a popup window.
+La aplicación permite registrar y gestionar los datos de los usuarios de manera eficiente, facilitando el acceso a su información de contacto y preferencias. Gracias a los métodos REST, se puede interactuar con la base de datos para almacenar, actualizar y consultar la información en tiempo real. Además, la implementación de módulos ES6 y async/await garantiza una experiencia fluida y rápida al procesar los datos de los usuarios en un entorno seguro y bien estructurado.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ To run this project  you need the following tools:
 Clone this repository to your desired folder:
 sh
  cd TV-AMAZE-APP
- git clone git@github.com:alyconr/TV-AMAZE-APP.git
+ git clone https://github.com/Sflorez498/5Qprueba.git
 
 
 
@@ -262,7 +262,7 @@ JEYSSON CONTRERAS
 👤 *Author1*
 
 - GitHub: [@alyconr](https://github.com/Sflorez498)
-- LinkedIn: [LinkedIn]()
+- LinkedIn: [LinkedIn](https://github.com/Sflorez498/5Qprueba.git)
 
 
 
@@ -287,7 +287,7 @@ JEYSSON CONTRERAS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Sflorez498/5Qprueba.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
