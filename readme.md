@@ -262,7 +262,7 @@ JEYSSON CONTRERAS
 👤 *Author1*
 
 - GitHub: [@alyconr](https://github.com/Sflorez498)
-- LinkedIn: [LinkedIn](https://github.com/Sflorez498/5Qprueba.git)
+- LinkedIn: [LinkedIn]()
 
 
 
@@ -287,7 +287,7 @@ JEYSSON CONTRERAS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Sflorez498/5Qprueba.git).
+Feel free to check the [issues page]().
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
