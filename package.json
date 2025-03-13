@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Running tests...\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "webpack --mode=production",
     "start": "node server.js"
   },
@@ -21,6 +21,7 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
+  
   "dependencies": {
     "abab": "^2.0.6",
     "abort-controller": "^3.0.0",
