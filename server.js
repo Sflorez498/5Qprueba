@@ -3,12 +3,12 @@ const path = require('path');
 
 const app = express();
 
-// server static files
+// Serve static files
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// for any request that doesn't match a static file, serve index.html
+// For any request that doesn't match a static file, serve index.html
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 // Expose
