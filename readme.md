@@ -143,9 +143,7 @@ Webpack dev server
 sh
      npm install --save-dev webpack-dev-server
 
-Babel Dependency loader
-sh
-     npm install --save-dev babel-loader
+
 
 Minify CSS: To reduce the size of your CSS file by removing unnecessary characters such as whitespace and comments. 
 sh
