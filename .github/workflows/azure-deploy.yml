@@ -31,7 +31,7 @@ jobs:
           host: ${{ secrets.VM_IP }}
           username: ${{ secrets.VM_USERNAME }}
           key: ${{ secrets.VM_PRIVATE_KEY }}
-          port: ${{ secrets.VM_PORT }}  # optional if using default port 22, can be omitted
+          port: ${{ secrets.VM_PORT || 22 }}  # optional if using default port 22, can be omitted
           source: "."
           target: "/home/${{ secrets.VM_USERNAME }}/form-app"  # adjust target path as needed
  
