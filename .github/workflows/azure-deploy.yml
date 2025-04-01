@@ -3,7 +3,7 @@ name: Build and Deploy to Azure VM
 on:
   push:
     branches:
-      - develop  # adjust if you deploy from a different branch
+      - develop  # Ajusta si despliegas desde otra rama
 
 jobs:
   build-and-deploy:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'  # use your desired Node.js version
+          node-version: '18'  # Ajusta la versión si es necesario
 
       - name: Install dependencies
         run: npm install
@@ -24,27 +24,26 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      # Copy the built files and server code to the VM using scp.
+      # Copia los archivos al servidor usando SCP
       - name: Copy files to VM
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.VM_IP }}
           username: ${{ secrets.VM_USERNAME }}
           key: ${{ secrets.VM_PRIVATE_KEY }}
-          port: ${{ secrets.VM_PORT || 22 }}  # Usa el puerto del secreto o 22 si está vacío
-          source: "."
-          target: "/home/${{ secrets.VM_USERNAME }}/form-app"  # Ajusta el path si es necesario
+          port: ${{ secrets.VM_PORT || 22 }}  # Usa 22 si VM_PORT está vacío
+          source: "./"  # Solo copiará archivos relevantes
+          target: "/home/${{ secrets.VM_USERNAME }}/form-app"
 
-      # Execute remote commands via SSH to install dependencies and restart the app.
+      # Ejecuta comandos en la VM después de copiar los archivos
       - name: Execute remote SSH commands
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.VM_IP }}
           username: ${{ secrets.VM_USERNAME }}
           key: ${{ secrets.VM_PRIVATE_KEY }}
-          port: ${{ secrets.VM_PORT || 22 }}  # Asegura que el puerto sea un número válido
+          port: ${{ secrets.VM_PORT || 22 }}
           script: |
             cd ~/form-app
             npm install --production
-            # Si usas PM2, reinicia la app o iníciala si no está corriendo:
             pm2 restart app || pm2 start server.js --name 5QPRUEBA
