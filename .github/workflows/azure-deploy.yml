@@ -24,6 +24,11 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Verify build directory
+        run: |
+          echo "Listing build directory..."
+          ls -la build/ || ls -la dist/
+
       # Copia archivos necesarios al servidor
       - name: Copy files to VM
         uses: appleboy/scp-action@master
@@ -31,12 +36,12 @@ jobs:
           host: ${{ secrets.VM_IP }}
           username: ${{ secrets.VM_USERNAME }}
           key: ${{ secrets.VM_PRIVATE_KEY }}
-          port: ${{ secrets.VM_PORT }}  # Usa el puerto desde secretos directamente
+          port: ${{ secrets.VM_PORT }}
           source: |
             package.json
             package-lock.json
-            build
-            server.js  # Ajusta si tu archivo principal tiene otro nombre
+            dist  # Cambia a "build" si es necesario
+            server.js  # Ajusta la ruta si está en otro lugar
           target: "/home/${{ secrets.VM_USERNAME }}/form-app"
 
       # Ejecuta comandos en la VM
@@ -49,6 +54,7 @@ jobs:
           port: ${{ secrets.VM_PORT }}
           script: |
             cd ~/form-app
+            chmod -R 755 .
             npm install --production
-            pm2 restart app || pm2 start server.js --name app  # Nombre más seguro
+            pm2 restart app || pm2 start server.js --name app
             pm2 save
