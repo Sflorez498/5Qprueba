@@ -1,196 +1,217 @@
 <a name="readme-top"></a>
 
+
+
 <div align="center">
   
   <img src="./src/assets/images/LOGOv2.png" alt="logo" width="250" height="250" />
   <br/>
 
-  <h3><b>Formulario SENA</b></h3>
+  <h3><b>Formulario Sena</b></h3>
 
 </div>
 
-# 📖 [Formulario SENA]
+<!-- TABLE OF CONTENTS -->
 
-Creamos un formulario sencillo y accesible para facilitar la recolección de datos importantes de nuestros clientes, como nombre, contacto, edad y género. Esto nos permite ofrecer una atención más personalizada, mejorar la comunicación y asegurar que su información esté bien resguardada. Nuestra prioridad es la facilidad de uso y la seguridad de los datos.
+# 📗 Table of Contents
 
----
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  
+- [🔭 Future Features](#future-features)
+- 
 
-### 🛠 Tech Stack <a name="tech-stack"></a>
+<!-- PROJECT DESCRIPTION -->
 
-- HTML  
-- CSS  
-- JavaScript  
-- Webpack  
-- Git  
-- GitHub Actions  
-- Linters  
-- Azure  
-- Express  
-- REST API  
+# 📖 [Formulario Sena ] <a name="about-project"></a>
 
----
+Creamos un formulario sencillo y amigable para que los clientes puedan dejarnos sus datos, como su nombre, correo y número de teléfono. Así, podemos ponernos en contacto con ellos de la manera que prefieran, ya sea por mensaje o llamada. La idea es hacerles todo más fácil, asegurándonos de que su información esté segura y solo la usemos para ayudarles o responder sus dudas.
+ 
 
-### 🔑 Key Features <a name="key-features"></a>
+### Tech Stack <a name="tech-stack"></a>
 
-- ✔️ Buenas prácticas de HTML y CSS  
-- ✔️ Diseño adaptable a dispositivos móviles  
-- ✔️ Modularización de JavaScript  
-- ✔️ Uso de Webpack para empaquetado  
-- ✔️ Backend con Express y manejo de APIs REST  
-- ✔️ Interacción con base de datos para almacenar datos  
-- ✔️ Validación y seguridad básica de formularios  
+<li> HTML </li>
+<li> CSS </li>
+<li> Javascript </li>
+<li> Webpack </li>
+<li> Git </li>
+<li> Git Actions </li>
+<li> Linters </li>
+<li> Azure </li>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- *[HTML & CSS Best practices]*
+- *[Responsive Design]*
+- *[Webpack Bundling ]*
+
+
+### Series List:
+Este formulario se ha creado para llevar un mejor control de los usuarios y facilitar el contacto con ellos. Al registrarlos, podremos gestionar su información de manera organizada y asegurarnos de que reciban la mejor atención posible.
+Incluiremos datos como nombre, correo, teléfono y otros detalles importantes para personalizar la experiencia de cada usuario. Queremos que el proceso sea fácil, rápido y seguro, asegurándonos de que la información esté siempre protegida.
+### Likes:
+Este es un aplicativo muy útil porque nos permite guardar y organizar los datos de los usuarios de manera eficiente. Gracias a esto, podemos acceder fácilmente a su información cuando la necesitemos, mejorar la comunicación y ofrecerles una mejor experiencia. Además, garantiza que los datos estén almacenados de forma segura y bien gestionados.
+
+### Comments Popup: 
+La aplicación permite registrar y gestionar los datos de los usuarios de manera eficiente, facilitando el acceso a su información de contacto y preferencias. Gracias a los métodos REST, se puede interactuar con la base de datos para almacenar, actualizar y consultar la información en tiempo real. Además, la implementación de módulos ES6 y async/await garantiza una experiencia fluida y rápida al procesar los datos de los usuarios en un entorno seguro y bien estructurado.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
+<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Puedes ver una demostración del proyecto aquí:
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 
-### ✅ Prerequisitos
 
-Asegúrate de tener instaladas las siguientes herramientas:
+### Prerequisites
 
-- [VS Code](https://code.visualstudio.com/)  
-- [Git](https://git-scm.com/)  
-- [Node.js](https://nodejs.org/)  
-- [Webpack](https://webpack.js.org/)  
-- [Azure CLI (opcional para despliegue en la nube)]  
+Para ejecutar este proyecto necesitas las siguientes herramientas:
 
----
+-- [VS Code ]
+- [Git and GitHub ]
+- [linters ]
+- [Webpack ]
+- [Azure ]
 
-### ⚙️ Setup
 
-Clona este repositorio:
 
-```bash
-cd formulario-sena
-git clone https://github.com/Sflorez498/5Qprueba.git
-📦 Install
-Instala las dependencias del proyecto:
+### Setup
 
-Webhint
+Clone this repository to your desired folder:
+sh
+ cd Formulario Sena
+ git clone https://github.com/Sflorez498/5Qprueba.git
 
-bash
-Copiar
-Editar
-npm install --save-dev hint@7.x
-Stylelint
 
-bash
-Copiar
-Editar
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-ESLint
 
-bash
-Copiar
-Editar
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-Webpack y loaders
+### Install
 
-bash
-Copiar
-Editar
-npm init -y
-npm install --save-dev webpack webpack-cli style-loader css-loader html-loader html-webpack-plugin webpack-dev-server
-Babel
+Install this project with:
 
-bash
-Copiar
-Editar
-npm install --save-dev babel-loader @babel/core @babel/preset-env
-Express y body-parser
+Webhint:
 
-bash
-Copiar
-Editar
-npm install --save express body-parser
-Concurrently (ejecutar múltiples scripts)
+sh
+     npm install --save-dev hint@7.x
 
-bash
-Copiar
-Editar
-npm install --save-dev concurrently
-▶️ Usage
-Para correr el proyecto localmente:
 
-Modo desarrollo
 
-bash
-Copiar
-Editar
-npm run build-dev
-npm run devserver-reload
-Modo producción
+Stylelint:
 
-bash
-Copiar
-Editar
-npm run build-prod
-npm run server-prod
-🧪 Run tests
-Stylelint
+sh
+     npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-bash
-Copiar
-Editar
-npx stylelint "**/*.{css,scss}"
-Webhint
 
-bash
-Copiar
-Editar
-npx hint .
-ESLint
+Eslint
 
-bash
-Copiar
-Editar
-npx eslint .
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-🔭 Future Features <a name="future-features"></a>
- Recomendaciones personalizadas
+sh
+     npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
- Filtros de búsqueda avanzados
 
- Notificaciones y recordatorios
+Webpack
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-👥 Authors <a name="authors"></a>
-👤 Jeysson Contreras
+sh
+     npm init -y
+     npm install webpack webpack-cli --save-dev
 
-GitHub: @Sflorez498
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-🤝 Contributing <a name="contributing"></a>
-¿Te gustaría contribuir al proyecto? ¡Las contribuciones son bienvenidas!
-Por favor revisa la sección de issues para más detalles:
-👉 Issues Page
+Webpack Css loader
+
+sh
+     npm install --save-dev style-loader css-loader
+
+
+Webpack html loader
+
+sh
+     npm install --save-dev html-loader
+
+
+Webpack html plugin
+
+sh
+     npm install --save-dev html-webpack-plugin
+
+
+Webpack dev server
+
+sh
+     npm install --save-dev webpack-dev-server
+
+
+Babel Dependency loader
+
+sh
+     npm install --save-dev babel-loader
+
+### Usage
+
+To run locally run the following command:
+## Development mode
+sh
+    npm run build-dev
+
+## Production mode
+sh
+   "build": "webpack --mode=production",
+   "start": "node server.js"
+
+
+
+### Run tests
+
+To run tests, run the following command:
+
+To test the Stylelint linter:
+
+sh
+    npx stylelint "**/*.{css,scss}"
+
+
+To test the Webhint:
+
+sh
+    npx hint .
+
+
+To test the ESLint linter:
+
+sh
+    npx eslint .
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-⭐️ Show your support <a name="support"></a>
-Si te gustó este proyecto, dale una estrella ⭐ en GitHub.
-¡Tu apoyo es muy valioso!
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-🙏 Acknowledgements <a name="acknowledgements"></a>
-Gracias a Dios por darme la fuerza y motivación para realizar este proyecto.
-Y a todas las personas que me han apoyado en este camino.
+
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] *[Personalized Recommendations]*
+- [ ] *[Advanced Search Filters]*
+- [ ] *[Notifications and Reminders]*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-📝 License <a name="license"></a>
-Este proyecto está bajo la licencia MIT.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> ```
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project please give  one start.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
