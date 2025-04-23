@@ -176,19 +176,19 @@ To run tests, run the following command:
 To test the Stylelint linter:
 
 sh
-    npx stylelint "**/*.{css,scss}"
+   "npx stylelint "**/*.{css,scss}"
 
 
 To test the Webhint:
 
 sh
-    npx hint .
+    "npx hint" .
 
 
 To test the ESLint linter:
 
 sh
-    npx eslint .
+    "npx eslint" .
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
