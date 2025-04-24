@@ -57,14 +57,6 @@ Creamos un formulario sencillo y amigable para que los clientes puedan dejarnos 
 - *[Webpack Bundling ]*
 
 
-### Series List:
-Este formulario se ha creado para llevar un mejor control de los usuarios y facilitar el contacto con ellos. Al registrarlos, podremos gestionar su información de manera organizada y asegurarnos de que reciban la mejor atención posible.
-Incluiremos datos como nombre, correo, teléfono y otros detalles importantes para personalizar la experiencia de cada usuario. Queremos que el proceso sea fácil, rápido y seguro, asegurándonos de que la información esté siempre protegida.
-### Likes:
-Este es un aplicativo muy útil porque nos permite guardar y organizar los datos de los usuarios de manera eficiente. Gracias a esto, podemos acceder fácilmente a su información cuando la necesitemos, mejorar la comunicación y ofrecerles una mejor experiencia. Además, garantiza que los datos estén almacenados de forma segura y bien gestionados.
-
-### Comments Popup: 
-La aplicación permite registrar y gestionar los datos de los usuarios de manera eficiente, facilitando el acceso a su información de contacto y preferencias. Gracias a los métodos REST, se puede interactuar con la base de datos para almacenar, actualizar y consultar la información en tiempo real. Además, la implementación de módulos ES6 y async/await garantiza una experiencia fluida y rápida al procesar los datos de los usuarios en un entorno seguro y bien estructurado.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
